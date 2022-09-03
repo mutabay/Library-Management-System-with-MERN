@@ -1,0 +1,41 @@
+{
+  "name": "lib_management",
+  "version": "1.0.0",
+  "description": "Library Management Website using MERN stack",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\" ",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "author": "Chirag Jain",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "concurrently": "^6.5.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "font-awesome": "^4.7.0",
+    "jsonwebtoken": "^8.5.1",
+    "language-list": "^0.0.3",
+    "mongoose": "^6.3.4",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local-mongoose": "^6.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjchirag7/lib_management.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cjchirag7/lib_management/issues"
+  },
+  "homepage": "https://github.com/cjchirag7/lib_management#readme"
+}
