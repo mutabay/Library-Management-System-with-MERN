@@ -5,9 +5,16 @@ A web app for the management of books, users and the Issue and Return of Books i
 <hr>
 
 ## Screenshots  
+
+#### UI  
 ![image](https://user-images.githubusercontent.com/60510780/188250489-e14f96fe-f81c-4056-b146-8443547f8ad0.png)
 ![image](https://user-images.githubusercontent.com/60510780/188250494-85980215-ad27-470a-91b7-756b5d782715.png)
 ![image](https://user-images.githubusercontent.com/60510780/188250502-993dfc3a-a004-42b6-929b-daa3cb04829f.png)
+#### Database  
+![image](https://user-images.githubusercontent.com/60510780/188250605-4d981d3d-3916-4946-ac0e-59396bd97c35.png)
+![image](https://user-images.githubusercontent.com/60510780/188250614-1161a9fc-cc7e-4a92-ac69-420d5b591676.png)
+![image](https://user-images.githubusercontent.com/60510780/188250627-32087eff-1b51-40b9-908e-22d45b3987f8.png)
+![image](https://user-images.githubusercontent.com/60510780/188250633-a4614aca-202d-461f-9681-42bcbf24c9bc.png)
 
 
 ## User Permissions
