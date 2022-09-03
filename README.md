@@ -4,9 +4,9 @@ A web app for the management of books, users and the Issue and Return of Books i
 
 ## User Permissions
 
-### Student
+### User
 
-A student can
+A user can
 
 * register himself on the app
 * view and edit his profile
@@ -37,13 +37,7 @@ An admin can
 
 2. You can also register yourself as a student and then login to view the options available to a student.
 
-## View live App
-
-Hosted at https://lib-manage.herokuapp.com/
-
-## Tech Stack Used
-
-### The MERN Stack
+### The MERN (Redux) Stack is used.
 
 * [MongoDB](https://docs.mongodb.com/) - Document database - to store data as JSON 
 * [Express.js](https://devdocs.io/express/) - Back-end web application framework running on top of Node.js
